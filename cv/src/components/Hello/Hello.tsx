@@ -4,6 +4,7 @@ import Image from 'next/image';
 // Import Swiper styles
 import 'swiper/css';
 import ImageSlider from '../Slider/Slider';
+import SocialMedia from '../SocialMedia/SocialMedia';
 
 const Navbar = () => {
     const images = [
@@ -40,6 +41,8 @@ const Navbar = () => {
                                     <li><a href="#"><i className="lnr lnr-envelope"></i> dim_kolev2002@abv.bg</a></li>
                                     <li><a href="#"><i className="lnr lnr-home"></i>Smolian, Bulgaria</a></li>
                                 </ul>
+
+                                <SocialMedia></SocialMedia>
                             </div>
                         </div>
                     </div>

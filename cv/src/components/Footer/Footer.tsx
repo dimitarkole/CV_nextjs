@@ -1,6 +1,8 @@
 import Image from 'next/image';
+import SocialMedia from '../SocialMedia/SocialMedia';
 
 const Footer = () => {
+    const today = new Date();
     return (
         <footer className="footer_area p_120">
             <div className="container">
@@ -21,6 +23,7 @@ const Footer = () => {
                                 <h3>Follow Me</h3>
                             </div>
                             <p>Let us be social</p>
+                            <SocialMedia></SocialMedia>
                         </aside>
                 </div>
             </div>
@@ -28,6 +31,7 @@ const Footer = () => {
                 <aside className="f_widget social_widget">
 
                     <p>
+                        Copyright &copy;{today.getFullYear()} | 
                         All rights reserved
                     </p>
                 </aside>
