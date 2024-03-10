@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className="banner_inner d-flex align-items-center">
                     <div className="media row">
                         <div className="col-md-7">
-                            <ImageSlider images={images} />
+                            <ImageSlider images={images} imageClassName="h-dvh w-full" />
                         </div>
                         <div className="col-md-5">
                             <div className="personal_text">

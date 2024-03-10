@@ -4,9 +4,10 @@ import Image from 'next/image';
 
 interface ImageSliderProps {
     images: string[];
+    imageClassName?: string;
 }
 
-const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
+const ImageSlider: React.FC<ImageSliderProps> = ({ images, imageClassName = "h-dvh w-full" }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const goToPreviousSlide = () => {
@@ -35,7 +36,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
             >
                 &gt;
             </button>
-            <div className="h-dvh w-full">
+            <div className={imageClassName }>
                 <Image
                     src={images[currentImageIndex]}
                     alt={`Slide ${currentImageIndex + 1}`}

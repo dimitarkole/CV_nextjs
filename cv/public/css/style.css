@@ -3092,3 +3092,12 @@ h6 {
     width: 300px;
     border-radius:20px;
 }
+
+.star {
+    position: absolute;
+    top: -45px;
+    right: 16px;
+    width: 50px;
+    height: 50px;
+    color: #FFD700;
+}
