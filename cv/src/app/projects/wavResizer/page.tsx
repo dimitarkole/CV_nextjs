@@ -41,7 +41,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div className="col-md-12">
                 <h4>Project desctiption</h4>
                 <p id="desctiption">
                     Ross Auto" is an online platform specializing in offering a wide selection of cars
