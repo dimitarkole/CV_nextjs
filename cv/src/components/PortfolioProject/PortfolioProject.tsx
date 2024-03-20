@@ -20,7 +20,6 @@ const PortfolioProject: React.FC<PortfolioProjectItemProps> = ({ project }) => {
                                 </svg>
                             </h1>
                         }
-                     
                     </div>
                     <div className="contentBx">
                         <h3>{project.name}</h3>
